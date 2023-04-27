@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className='h-14 bg-indigo-200 rounded-full m-2 max-w-7xl mx-auto px-5'>
       <ul className='h-full  mx-auto flex justify-between items-center gap-3 font-semibold text-indigo-900'>
-        <h1 className='flex-1'>Moon Tech</h1>
+        <h1 className='flex-1'>Tech Ecom</h1>
         <li>
           <Link to='/'>Home</Link>
         </li>
@@ -18,7 +18,7 @@ const Navbar = () => {
           <Link to='/about'>About</Link>
         </li>
         <li title='Wishlist' className='bg-indigo-500 p-2 rounded-full'>
-          <Link to='/'>
+          <Link to='/wishlist'>
             <IoIosListBox className='text-white' />
           </Link>
         </li>
